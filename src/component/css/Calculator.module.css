@@ -1,0 +1,11 @@
+.calculatorcontainer {
+  height: 600px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid var(--ternary-color);
+  padding: 10px;
+  border-radius: var(--border-radius-lg);
+}

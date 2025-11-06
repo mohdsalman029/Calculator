@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+
+:root {
+  --primary-color: #f4ffee;
+  --secondary-color: #ececec;
+  --ternary-color: #e1e1e1;
+  --text-color: #2b2b2b;
+
+  --border-radius-sm: 5px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+}
+
+.darkTheme {
+  --primary-color: #016b61;
+  --secondary-color: #048073;
+  --ternary-color: #069788;
+  --text-color: #e8e8e8;
+}

@@ -1,0 +1,11 @@
+.modecontainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.modecontainer svg {
+  color: var(--primary-color) !important;
+}
