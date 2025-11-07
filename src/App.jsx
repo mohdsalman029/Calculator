@@ -5,16 +5,7 @@ import style from "./component/css/App.module.css";
 
 function App() {
   return (
-    <div
-      className={style.appContainer}
-      style={{
-        height: "100vh",
-        width: "100vw",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className={style.appContainer}>
       <ThemeProvider>
         <Calculator />
       </ThemeProvider>
