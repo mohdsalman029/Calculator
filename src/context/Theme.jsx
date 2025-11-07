@@ -5,7 +5,7 @@ import { createContext } from "react";
 
 const ThemeContext = createContext();
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     document.documentElement.classList.toggle("darkTheme", theme === "dark");
